@@ -31,3 +31,9 @@ You can run any command to the server without being logged onto it, using the fo
 ## `$ ssh cs15lwi22`zzz`@ieng6.ucsd.edu "<insert command here>"`
 ![Image](CSE15Lab6.JPG)
 So long as the keys are set up properly, you should not be prompted to log in. This can work for any command, and even multiple commands at once.
+To optimize the process, you would want to:
+1. Create a document with the commands you need. Then copy/paste them in the correct order. If you've already used them once you can press the up arrow key to access them.
+2. Make edits to the WhereAmI.java file and save them.
+3. Paste the following command and hit enter:
+## `$ ssh cs15lwi22`zzz`@ieng6.ucsd.edu "scp WhereAmI.java"`
+Ctrl C+V and Enter should only require three keystrokes and take less than 4 seconds.
