@@ -36,4 +36,4 @@ To optimize the process, you would want to:
 2. Make edits to the WhereAmI.java file and save them.
 3. Paste the following command and hit enter:
 ## `$ ssh cs15lwi22`zzz`@ieng6.ucsd.edu "scp WhereAmI.java"`
-Ctrl C+V and Enter should only require three keystrokes and take less than 4 seconds.
+You navigate from VSCode to the document (1). You highlight the text (2) and copy it (3). Then you click back to VSCode (4). Then you click Ctrl - V (5) and hit enter (6). If you have already inputted these commands, you can use the up arrow, which should only take three keystrokes. (Click terminal + Up + enter)
